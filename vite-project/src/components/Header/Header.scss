@@ -1,0 +1,128 @@
+// Variables
+  $primary-color: transparent;
+$secondary-color: #fff;
+$dropdown-background: rgb(0, 0, 0, 0.2);
+$animation-delay: 0.1s; // Adjust this value as needed
+
+// Mixins
+@mixin container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+// Styles
+body {
+  margin: 0;
+  padding: 0;
+
+  .navbar {
+    background-color: $primary-color;
+    padding: 20px 0;
+
+    .container {
+      @include container;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        color: $secondary-color;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        .dropdown {
+          position: relative;
+
+          .dropdown-container:hover .dropdown-content {
+            display: block;
+          }
+
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $dropdown-background;
+            min-width: 95px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 10px;
+            left: -12px;
+
+            .dropdown-item {
+              animation: dropdown-animation 0.5s ease forwards;
+              opacity: 0;
+              font-size: 12px;
+            }
+
+            @for $i from 1 through 3 {
+              .dropdown-item:nth-child(#{$i}) {
+                animation-delay: $animation-delay * $i;
+              }
+            }
+
+            a {
+              color: $secondary-color;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+          
+
+              // ! Hover effect on each dropdown-item
+              &:hover {
+                background-color: darken($dropdown-background, 10%);
+              }
+            }
+          }
+        }
+
+        li {
+          margin-right: 20px;
+          a {
+            color: $secondary-color;
+            text-decoration: none;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes dropdown-animation {
+  to {
+    opacity: 1;
+  }
+}
+
+// Shrinking for mobile
+@media (max-width: 768px) {
+  .waves {
+    height: 50px;
+    min-height: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    .navbar {
+      .container {
+        .nav-links {
+          li {
+            a {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
