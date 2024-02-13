@@ -1,5 +1,5 @@
 // Variables
-  $primary-color: transparent;
+$primary-color: transparent;
 $secondary-color: #fff;
 $dropdown-background: rgb(0, 0, 0, 0.2);
 $animation-delay: 0.1s; // Adjust this value as needed
@@ -53,9 +53,11 @@ body {
             background-color: $dropdown-background;
             min-width: 95px;
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            z-index: 1;
+            z-index: 15;
             border-radius: 10px;
             left: -12px;
+            overflow: hidden;
+            animation: fadeIn 0.4s ease;
 
             .dropdown-item {
               animation: dropdown-animation 0.5s ease forwards;
@@ -74,7 +76,6 @@ body {
               padding: 12px 16px;
               text-decoration: none;
               display: block;
-          
 
               // ! Hover effect on each dropdown-item
               &:hover {
@@ -98,6 +99,16 @@ body {
 }
 
 @keyframes dropdown-animation {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  /* From 0% opacity to 100% opacity */
+  from {
+    opacity: 0;
+  }
   to {
     opacity: 1;
   }

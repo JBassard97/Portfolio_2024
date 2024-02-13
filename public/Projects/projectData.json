@@ -1,0 +1,23 @@
+[
+  {
+    "title": "jbassard97nodecolors",
+    "desc": "description of the application, it's great.",
+    "imgPath": "../../../public/sunset.jpg",
+    "stack": "HTML, CSS, JS",
+    "github": "http://google.com"
+  },
+  {
+    "title": "jbassard97nodecolors",
+    "desc": "description of the application, it's great.",
+    "imgPath": "../../../public/myCats.jpg",
+    "stack": "BOOTSTRAP, JQUERY, DAYJS",
+    "github": "google.com"
+  },
+  {
+    "title": "jbassard97nodecolors",
+    "desc": "description of the application, it's great.",
+    "imgPath": "../../../public/daytime.jpg",
+    "stack": "MYSQL, MONGOOSE, HANDLEBARS",
+    "github": "google.com"
+  }
+]
