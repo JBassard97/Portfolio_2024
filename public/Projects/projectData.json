@@ -1,23 +1,107 @@
 [
   {
-    "title": "jbassard97nodecolors",
-    "desc": "description of the application, it's great.",
-    "imgPath": "../../../public/sunset.jpg",
-    "stack": "HTML, CSS, JS",
-    "github": "http://google.com"
+    "title": "Code-Corner",
+    "desc": "Full Stack blog for budding devs",
+    "imgPath": "../../../public/Projects/ProjectImages/codeCorner.png",
+    "stack": "MySQL, Handlebars, Express, Sequelize",
+    "github": "https://github.com/JBassard97/Code-Corner"
+  },
+  {
+    "title": "Just Another Text Editor",
+    "desc": "A Progressive Web App to dependably write code snippets",
+    "imgPath": "../../../public/Projects/ProjectImages/JATE.png",
+    "stack": "WebPack, Service-Workers, Manifest.js, Bootstrap",
+    "github": "https://github.com/JBassard97/Browser-Text-Editor"
+  },
+  {
+    "title": "Bookshelf",
+    "desc": "Where book lovers can create and save book collections",
+    "imgPath": "../../../public/Projects/ProjectImages/bookshelf.png",
+    "stack": "MYSQL, Handlebars, Express, Sequelize",
+    "github": "https://github.com/JBassard97/Bookshelf"
+  },
+  {
+    "title": "Social Network API",
+    "desc": "An API fit for any social website",
+    "imgPath": "../../../public/Projects/ProjectImages/socialnetwork.png",
+    "stack": "MongoDB, Mongoose, Express, NodeJS, Insomnia",
+    "github": "https://github.com/JBassard97/Social_Network_API"
+  },
+  {
+    "title": "README Generator",
+    "desc": "A CLI tool to make a README very quickly",
+    "imgPath": "../../../public/Projects/ProjectImages/readmegen.png",
+    "stack": "NodeJS, JavaScript, writeFileSync",
+    "github": "https://github.com/JBassard97/Professional_README_Generator"
   },
   {
     "title": "jbassard97nodecolors",
-    "desc": "description of the application, it's great.",
-    "imgPath": "../../../public/myCats.jpg",
-    "stack": "BOOTSTRAP, JQUERY, DAYJS",
-    "github": "google.com"
+    "desc": "An npm module to easily colorize terminal output",
+    "imgPath": "../../../public/Projects/ProjectImages/nodecolors.png",
+    "stack": "JavaScript, NPM",
+    "github": "https://github.com/JBassard97/nodeColors"
   },
   {
-    "title": "jbassard97nodecolors",
-    "desc": "description of the application, it's great.",
-    "imgPath": "../../../public/daytime.jpg",
-    "stack": "MYSQL, MONGOOSE, HANDLEBARS",
-    "github": "google.com"
+    "title": "SVG Logo Maker",
+    "desc": "Create business logos on the fly",
+    "imgPath": "../../../public/Projects/ProjectImages/svgmaker.png",
+    "stack": "NodeJS, Jest, Inquirer, OOP",
+    "github": "https://github.com/JBassard97/SVG_Logo_Maker"
+  },
+  {
+    "title": "Workday Scheduler",
+    "desc": "Plan your 9 to 5 by the hour",
+    "imgPath": "../../../public/Projects/ProjectImages/workday.png",
+    "stack": "JQuery, Day.js, Google Fonts",
+    "github": "https://github.com/JBassard97/Work_Day_Scheduler"
+  },
+  {
+    "title": "5 Day Weather",
+    "desc": "Know the forecast for today and the next 5 days",
+    "imgPath": "../../../public/Projects/ProjectImages/weather.png",
+    "stack": "JQuery, Third Party APIs (OpenWeather & GeoJS), Bootstrap",
+    "github": "https://github.com/JBassard97/5_Day_Weather"
+  },
+  {
+    "title": "Note Taker",
+    "desc": "Quickly jot notes down in a convenient web app",
+    "imgPath": "../../../public/Projects/ProjectImages/notetaker.png",
+    "stack": "Express, JavaScript, Bootstrap",
+    "github": "https://github.com/JBassard97/Note_Taker"
+  },
+  {
+    "title": "Employee Tracker",
+    "desc": "A Content Management System for everyone on payroll",
+    "imgPath": "../../../public/Projects/ProjectImages/employee.png",
+    "stack": "MySQL, SQL, NodeJS, Inquirer",
+    "github": "https://github.com/JBassard97/Employee_Tracker"
+  },
+  {
+    "title": "E_Commerce API",
+    "desc": "An API serving every HTTP request for your digital storefront",
+    "imgPath": "../../../public/Projects/ProjectImages/ecom.png",
+    "stack": "Express, SQL, MySQL, Insomnia",
+    "github": "https://github.com/JBassard97/E_Commerce_API"
+  },
+  {
+    "title": "JavaScript Code Quiz",
+    "desc": "5 question timed test on JavaScript's basics with a highscore page",
+    "imgPath": "../../../public/Projects/ProjectImages/quiz.png",
+    "stack": "HTML, CSS, JAVASCRIPT",
+    "github": "https://github.com/JBassard97/Code_Quiz"
+  },
+  {
+    "title": "",
+    "desc": "",
+    "imgPath": "../../../public/Projects/ProjectImages/employee.png",
+    "stack": "",
+    "github": "https://github.com/JBassard97/Employee_Tracker"
+  },
+  {
+    "title": "",
+    "desc": "",
+    "imgPath": "../../../public/Projects/ProjectImages/employee.png",
+    "stack": "",
+    "github": "https://github.com/JBassard97/Employee_Tracker"
   }
 ]
