@@ -1,0 +1,46 @@
+.cover-letter-text {
+    margin: 0px 45px;
+    margin-bottom: 40px;
+
+    p {
+        text-indent: 40px;
+        opacity: 0; /* Initially set opacity to 0 */
+
+        /* Define animation */
+        animation: fadeIn 0.5s ease forwards;
+    }
+
+    .title {
+        /* No animation delay for the title */
+        animation-delay: 0s;
+    }
+
+    /* Define animation keyframes */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Apply animation delay for each paragraph */
+    p:nth-child(1) {
+        animation-delay: 0.1s; /* Delay for the first paragraph */
+    }
+
+    p:nth-child(2) {
+        animation-delay: 0.2s; /* Delay for the second paragraph */
+    }
+}
+
+
+// .cover-letter-text {
+//     margin: 0px 45px;
+//     margin-bottom: 20px;
+
+//     p {
+//         text-indent: 40px;
+//     }
+// }

@@ -5,10 +5,25 @@ import Preview from "./Preview/Preview.tsx";
 import Projects from "../Projects/Projects.tsx";
 import Skills from "../Skills/Skills.tsx";
 import FindMeAt from "../FindMeAt/FindMeAt.tsx";
+import AboutMe from "../AboutMe/AboutMe.tsx";
+import CoverLetter from "../CoverLetter/CoverLetter.tsx";
+import ContactForm from "../ContactForm/ContactForm.tsx";
 
 export default function Header({ changeMiddle }) {
+  const handleContactForm = () => {
+    changeMiddle(<ContactForm />);
+  };
+
   const handleFindMe = () => {
     changeMiddle(<FindMeAt />);
+  };
+
+  const handleAboutMe = () => {
+    changeMiddle(<AboutMe />);
+  };
+
+  const handleCoverLetter = () => {
+    changeMiddle(<CoverLetter />);
   };
 
   const handleDownload = () => {
@@ -39,18 +54,15 @@ export default function Header({ changeMiddle }) {
               <div className="dropdown-container">
                 <a href="#about">About</a>
                 <div className="dropdown-content">
-                  <a className="dropdown-item" href="#">
+                  <a onClick={handleAboutMe} className="dropdown-item" href="#">
                     My Story
                   </a>
-                  <a className="dropdown-item" href="#">
-                    Cover Letter
-                  </a>
                   <a
-                    onClick={() => changeMiddle("My Cats")}
+                    onClick={handleCoverLetter}
                     className="dropdown-item"
                     href="#"
                   >
-                    My Cats
+                    Cover Letter
                   </a>
                 </div>
               </div>
@@ -75,7 +87,7 @@ export default function Header({ changeMiddle }) {
               <div className="dropdown-container">
                 <a href="#contact">Contact</a>
                 <div className="dropdown-content">
-                  <a className="dropdown-item" href="#">
+                  <a onClick={handleContactForm} className="dropdown-item" href="#">
                     Contact Form
                   </a>
                   <a onClick={handleFindMe} className="dropdown-item" href="#">

@@ -19,13 +19,15 @@ export default function Skills() {
           <h3>Frontend</h3>
           <ul>
             <li>React</li>
+            <li>GraphQL</li>
             <li>Component Testing</li>
             <li>Sass</li>
             <li>Bootstrap</li>
             <li>Tailwind CSS</li>
-            <li>Responsive Design</li>
             <li>Vite</li>
             <li>WebPack</li>
+            <li>Apollo Server</li>
+            <li>Responsive Design</li>
           </ul>
         </div>
         <div className="skill-list">
@@ -40,6 +42,7 @@ export default function Skills() {
             <li>Flask (Python)</li>
             <li>Django (Python)</li>
             <li>Jest</li>
+            <li>Database Design</li>
           </ul>
         </div>
         <div className="skill-list">

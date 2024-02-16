@@ -17,6 +17,7 @@ export default function Projects() {
               imgPath={project.imgPath}
               stack={project.stack}
               github={project.github}
+              liveLink={project.liveLink}
             />
           </div>
         ))}

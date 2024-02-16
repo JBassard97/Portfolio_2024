@@ -1,6 +1,10 @@
 body {
   height: 100vh;
 
+  .title {
+    animation: fadeIn 0.5s ease;
+  }
+
   .resumePreview {
     display: flex;
     justify-content: center;
@@ -9,7 +13,7 @@ body {
       margin-top: 15px;
       max-width: 90%;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-      animation: fadeIn 1s ease;
+      animation: fadeIn 1.1s ease;
       margin-bottom: 120px;
     }
   }

@@ -4,21 +4,16 @@
     "desc": "Full Stack blog for budding devs",
     "imgPath": "../../../public/Projects/ProjectImages/codeCorner.png",
     "stack": "MySQL, Handlebars, Express, Sequelize",
-    "github": "https://github.com/JBassard97/Code-Corner"
-  },
-  {
-    "title": "Just Another Text Editor",
-    "desc": "A Progressive Web App to dependably write code snippets",
-    "imgPath": "../../../public/Projects/ProjectImages/JATE.png",
-    "stack": "WebPack, Service-Workers, Manifest.js, Bootstrap",
-    "github": "https://github.com/JBassard97/Browser-Text-Editor"
+    "github": "https://github.com/JBassard97/Code-Corner",
+    "liveLink": "https://code-corner-d43268fe7948.herokuapp.com/"
   },
   {
     "title": "Bookshelf",
     "desc": "Where book lovers can create and save book collections",
     "imgPath": "../../../public/Projects/ProjectImages/bookshelf.png",
     "stack": "MYSQL, Handlebars, Express, Sequelize",
-    "github": "https://github.com/JBassard97/Bookshelf"
+    "github": "https://github.com/JBassard97/Bookshelf",
+    "liveLink": "https://book-shelf-ec28e1e38c1b.herokuapp.com/"
   },
   {
     "title": "Social Network API",
@@ -39,7 +34,16 @@
     "desc": "An npm module to easily colorize terminal output",
     "imgPath": "../../../public/Projects/ProjectImages/nodecolors.png",
     "stack": "JavaScript, NPM",
-    "github": "https://github.com/JBassard97/nodeColors"
+    "github": "https://github.com/JBassard97/nodeColors",
+    "liveLink": "https://www.npmjs.com/package/jbassard97nodecolors"
+  },
+  {
+    "title": "Just Another Text Editor",
+    "desc": "A Progressive Web App to dependably write code snippets",
+    "imgPath": "../../../public/Projects/ProjectImages/JATE.png",
+    "stack": "WebPack, Service-Workers, Manifest.js, Bootstrap",
+    "github": "https://github.com/JBassard97/Browser-Text-Editor",
+    "liveLink": "https://just-another-text-editor-tq3x.onrender.com/"
   },
   {
     "title": "SVG Logo Maker",
@@ -53,21 +57,24 @@
     "desc": "Plan your 9 to 5 by the hour",
     "imgPath": "../../../public/Projects/ProjectImages/workday.png",
     "stack": "JQuery, Day.js, Google Fonts",
-    "github": "https://github.com/JBassard97/Work_Day_Scheduler"
+    "github": "https://github.com/JBassard97/Work_Day_Scheduler",
+    "liveLink": "https://jbassard97.github.io/Work_Day_Scheduler/"
   },
   {
     "title": "5 Day Weather",
     "desc": "Know the forecast for today and the next 5 days",
     "imgPath": "../../../public/Projects/ProjectImages/weather.png",
     "stack": "JQuery, Third Party APIs (OpenWeather & GeoJS), Bootstrap",
-    "github": "https://github.com/JBassard97/5_Day_Weather"
+    "github": "https://github.com/JBassard97/5_Day_Weather",
+    "liveLink": "https://jbassard97.github.io/5_Day_Weather/"
   },
   {
     "title": "Note Taker",
     "desc": "Quickly jot notes down in a convenient web app",
     "imgPath": "../../../public/Projects/ProjectImages/notetaker.png",
     "stack": "Express, JavaScript, Bootstrap",
-    "github": "https://github.com/JBassard97/Note_Taker"
+    "github": "https://github.com/JBassard97/Note_Taker",
+    "liveLink": "https://note-taker-gynb.onrender.com/"
   },
   {
     "title": "Employee Tracker",
@@ -88,20 +95,23 @@
     "desc": "5 question timed test on JavaScript's basics with a highscore page",
     "imgPath": "../../../public/Projects/ProjectImages/quiz.png",
     "stack": "HTML, CSS, JavaScript",
-    "github": "https://github.com/JBassard97/Code_Quiz"
+    "github": "https://github.com/JBassard97/Code_Quiz",
+    "liveLink": "https://jbassard97.github.io/Code_Quiz/"
   },
   {
     "title": "ButtonSynth",
     "desc": "A fun pocket instrument to jam out anywhere",
     "imgPath": "../../../public/Projects/ProjectImages/synth.png",
     "stack": "Web Audio API, HTML, CSS, JavaScript",
-    "github": "https://github.com/JBassard97/ButtonSynth"
+    "github": "https://github.com/JBassard97/ButtonSynth",
+    "liveLink": "https://jbassard97.github.io/ButtonSynth/"
   },
   {
     "title": "Brew-Finder",
     "desc": "Find bars near you or in the town over",
     "imgPath": "../../../public/Projects/ProjectImages/brew-finder-application.jpg",
     "stack": "Third Party APIs (OpenBrewery & GeoJS), HTML, CSS, JavaScript",
-    "github": "https://github.com/JBassard97/Brew-Finder"
+    "github": "https://github.com/JBassard97/Brew-Finder",
+    "liveLink": "https://ant-m84.github.io/Brew-Finder/"
   }
 ]
