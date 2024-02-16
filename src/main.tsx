@@ -11,7 +11,7 @@ function Main() {
     console.log("Middle content updated:", middleContent);
   }, [middleContent]);
 
-  const changeMiddle = (newContent: any) => {
+  const changeMiddle: any = (newContent: any) => {
     setMiddleContent(newContent);
   };
 

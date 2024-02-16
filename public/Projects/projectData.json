@@ -87,21 +87,21 @@
     "title": "JavaScript Code Quiz",
     "desc": "5 question timed test on JavaScript's basics with a highscore page",
     "imgPath": "../../../public/Projects/ProjectImages/quiz.png",
-    "stack": "HTML, CSS, JAVASCRIPT",
+    "stack": "HTML, CSS, JavaScript",
     "github": "https://github.com/JBassard97/Code_Quiz"
   },
   {
-    "title": "",
-    "desc": "",
-    "imgPath": "../../../public/Projects/ProjectImages/employee.png",
-    "stack": "",
-    "github": "https://github.com/JBassard97/Employee_Tracker"
+    "title": "ButtonSynth",
+    "desc": "A fun pocket instrument to jam out anywhere",
+    "imgPath": "../../../public/Projects/ProjectImages/synth.png",
+    "stack": "Web Audio API, HTML, CSS, JavaScript",
+    "github": "https://github.com/JBassard97/ButtonSynth"
   },
   {
-    "title": "",
-    "desc": "",
-    "imgPath": "../../../public/Projects/ProjectImages/employee.png",
-    "stack": "",
-    "github": "https://github.com/JBassard97/Employee_Tracker"
+    "title": "Brew-Finder",
+    "desc": "Find bars near you or in the town over",
+    "imgPath": "../../../public/Projects/ProjectImages/brew-finder-application.jpg",
+    "stack": "Third Party APIs (OpenBrewery & GeoJS), HTML, CSS, JavaScript",
+    "github": "https://github.com/JBassard97/Brew-Finder"
   }
 ]

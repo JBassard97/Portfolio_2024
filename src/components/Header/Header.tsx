@@ -3,10 +3,20 @@ import resume from "../../../public/Resume/J_Acciarito Resume 2024.pdf";
 import "./headerFuncs.ts";
 import Preview from "./Preview/Preview.tsx";
 import Projects from "../Projects/Projects.tsx";
+import Skills from "../Skills/Skills.tsx";
+import FindMeAt from "../FindMeAt/FindMeAt.tsx";
 
 export default function Header({ changeMiddle }) {
+  const handleFindMe = () => {
+    changeMiddle(<FindMeAt />);
+  };
+
   const handleDownload = () => {
     window.open(resume, "_blank");
+  };
+
+  const handleSkills = () => {
+    changeMiddle(<Skills />);
   };
 
   const handlePreview = () => {
@@ -47,20 +57,16 @@ export default function Header({ changeMiddle }) {
             </li>
             <li className="dropdown">
               <div className="dropdown-container">
-                <a href="#portfolio">Portfolio</a>
+                <a className="portTab" href="#portfolio">
+                  Portfolio
+                </a>
                 <div className="dropdown-content">
                   <a
                     onClick={handleProjects}
-                    className="dropdown-item"
+                    className="dropdown-item projectTab"
                     href="#"
                   >
                     Projects
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Skills
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Education
                   </a>
                 </div>
               </div>
@@ -70,13 +76,10 @@ export default function Header({ changeMiddle }) {
                 <a href="#contact">Contact</a>
                 <div className="dropdown-content">
                   <a className="dropdown-item" href="#">
-                    Item 1
+                    Contact Form
                   </a>
-                  <a className="dropdown-item" href="#">
-                    Item 2
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Item 3
+                  <a onClick={handleFindMe} className="dropdown-item" href="#">
+                    Find Me At...
                   </a>
                 </div>
               </div>
@@ -85,6 +88,9 @@ export default function Header({ changeMiddle }) {
               <div className="dropdown-container">
                 <a href="#resume">Resume</a>
                 <div className="dropdown-content">
+                  <a onClick={handleSkills} className="dropdown-item" href="#">
+                    Skills
+                  </a>
                   <a className="dropdown-item" href="#" onClick={handlePreview}>
                     Preview
                   </a>

@@ -4,10 +4,15 @@
     align-items: center;
 }
 
+.title {
+    animation: allFadeIn 0.5s ease;
+    font-size: 30px;
+}
+
 .buttons {
     z-index: 10;
     transform: translate(0px, -35px);
-    animation: allFadeIn 1s ease;
+    animation: allFadeIn 1.5s ease;
 }
 
 .prev, .next {
@@ -16,7 +21,7 @@
 }
 
 .carousel {
-    animation: allFadeIn 1s ease;
+    animation: allFadeIn 1.5s ease;
     --margin: 2rem;
 
     position: relative;

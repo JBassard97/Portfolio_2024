@@ -16,7 +16,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         <img className="card-image" src={imgPath} alt={title} />
         <div className="text-wrapper">
           <p className="title-text">
-            ㅤ{title}ㅤ{/* OctoCat svg */}
+            {title}{/* OctoCat svg */}
             <a
               href={github}
               // class="footer-octicon"

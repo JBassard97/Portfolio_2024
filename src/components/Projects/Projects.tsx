@@ -7,6 +7,7 @@ console.log(projectsData);
 export default function Projects() {
   return (
     <>
+      <p className="title">My Projects</p>
       <div className="carousel">
         {projectsData.map((project, index) => (
           <div key={index} className="carousel__item">
