@@ -1,9 +1,10 @@
 .cover-letter-text {
+    max-width: 80%;
     margin: 0px 45px;
     margin-bottom: 40px;
 
     p {
-        text-indent: 40px;
+        text-indent: 20px;
         opacity: 0; /* Initially set opacity to 0 */
 
         /* Define animation */
@@ -35,12 +36,3 @@
     }
 }
 
-
-// .cover-letter-text {
-//     margin: 0px 45px;
-//     margin-bottom: 20px;
-
-//     p {
-//         text-indent: 40px;
-//     }
-// }

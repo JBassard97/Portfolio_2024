@@ -8,8 +8,13 @@ import FindMeAt from "../FindMeAt/FindMeAt.tsx";
 import AboutMe from "../AboutMe/AboutMe.tsx";
 import CoverLetter from "../CoverLetter/CoverLetter.tsx";
 import ContactForm from "../ContactForm/ContactForm.tsx";
+import { useEffect } from "react";
 
 export default function Header({ changeMiddle }) {
+  useEffect(() => {
+    changeMiddle(<AboutMe />);
+  }, []);
+
   const handleContactForm = () => {
     changeMiddle(<ContactForm />);
   };
@@ -46,7 +51,7 @@ export default function Header({ changeMiddle }) {
     <>
       <nav className="navbar">
         <div className="container">
-          <a onClick={() => changeMiddle("")} href="#" className="logo">
+          <a onClick={handleAboutMe} href="#" className="logo">
             Jonathan Acciarito
           </a>
           <ul className="nav-links">
@@ -87,7 +92,11 @@ export default function Header({ changeMiddle }) {
               <div className="dropdown-container">
                 <a href="#contact">Contact</a>
                 <div className="dropdown-content">
-                  <a onClick={handleContactForm} className="dropdown-item" href="#">
+                  <a
+                    onClick={handleContactForm}
+                    className="dropdown-item"
+                    href="#"
+                  >
                     Contact Form
                   </a>
                   <a onClick={handleFindMe} className="dropdown-item" href="#">

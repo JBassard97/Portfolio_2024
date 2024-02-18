@@ -1,0 +1,83 @@
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: grid;
+    gap: 10px;
+
+    .form-group {
+      display: grid;
+      gap: 5px;
+
+      label {
+        justify-self: start;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      textarea {
+        height: 100px;
+      }
+    }
+
+    .send-status,
+    .error-status {
+      margin: 0;
+      opacity: 0.4;
+      font-style: italic;
+    }
+
+    .button-6 {
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0.25rem;
+      box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 1px 2px 0;
+      color: rgba(0, 0, 0, 0.85);
+      cursor: pointer;
+      display: inline-flex;
+      font: 16px/1.25 system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 1.25;
+      padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+      position: relative;
+      text-decoration: none;
+      transition: all 250ms;
+      user-select: none;
+      width: auto;
+
+      &:hover,
+      &:focus {
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+
+      &:hover {
+        transform: translateY(-1px);
+      }
+
+      &:active {
+        background-color: #f0f0f1;
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+        color: rgba(0, 0, 0, 0.65);
+        transform: translateY(0);
+      }
+    }
+  }
+}
