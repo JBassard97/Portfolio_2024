@@ -1,5 +1,5 @@
 import "./Preview.scss";
-import resumeScreenshot from "../../../../public/Resume/resumeScreenshot.jpg";
+import resumeScreenshot from "../../../../public/Resume/resumeScreenshot.png";
 
 export default function Preview() {
   return (
