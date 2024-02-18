@@ -9,7 +9,7 @@ import CoverLetter from "../CoverLetter/CoverLetter.tsx";
 import ContactForm from "../ContactForm/ContactForm.tsx";
 import { useEffect } from "react";
 
-export default function Header({ changeMiddle }) {
+export default function Header({ changeMiddle }: any) {
   useEffect(() => {
     changeMiddle(<AboutMe />);
   }, []);
