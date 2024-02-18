@@ -2,7 +2,7 @@
   {
     "title": "Code-Corner",
     "desc": "Full Stack blog for budding devs",
-    "imgPath": "../../../public/Projects/ProjectImages/codeCorner.png",
+    "imgPath": "./Projects/ProjectImages/codeCorner.png",
     "stack": "MySQL, Handlebars, Express, Sequelize",
     "github": "https://github.com/JBassard97/Code-Corner",
     "liveLink": "https://code-corner-d43268fe7948.herokuapp.com/"
