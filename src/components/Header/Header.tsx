@@ -1,6 +1,5 @@
 import "./Header.scss";
 import resume from "../../../public/Resume/J_Acciarito Resume 2024.pdf";
-import "./headerFuncs.ts";
 import Preview from "./Preview/Preview.tsx";
 import Projects from "../Projects/Projects.tsx";
 import Skills from "../Skills/Skills.tsx";

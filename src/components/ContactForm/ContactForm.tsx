@@ -36,6 +36,10 @@ export default function ContactForm() {
     }
   };
 
+  if (formData.name || formData.email || formData.message) {
+    setSendStatus("");
+  }
+
   const handleSubmit = (e: any) => {
     e.preventDefault();
 
@@ -103,7 +107,9 @@ export default function ContactForm() {
           ></textarea>
         </div>
         <p className="error-status">{errorStatus}</p>
-        <button className="button-6"type="submit">Submit</button>
+        <button className="button-6" type="submit">
+          Submit
+        </button>
         <p className="send-status">{sendStatus}</p>
       </form>
     </div>
