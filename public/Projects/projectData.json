@@ -10,7 +10,7 @@
   {
     "title": "Bookshelf",
     "desc": "Where book lovers can create and save book collections",
-    "imgPath": "../../../public/Projects/ProjectImages/bookshelf.png",
+    "imgPath": "./Projects/ProjectImages/bookshelf.png",
     "stack": "MYSQL, Handlebars, Express, Sequelize",
     "github": "https://github.com/JBassard97/Bookshelf",
     "liveLink": "https://book-shelf-ec28e1e38c1b.herokuapp.com/"
@@ -18,21 +18,21 @@
   {
     "title": "Social Network API",
     "desc": "An API fit for any social website",
-    "imgPath": "../../../public/Projects/ProjectImages/socialnetwork.png",
+    "imgPath": "./Projects/ProjectImages/socialnetwork.png",
     "stack": "MongoDB, Mongoose, Express, NodeJS, Insomnia",
     "github": "https://github.com/JBassard97/Social_Network_API"
   },
   {
     "title": "README Generator",
     "desc": "A CLI tool to make a README very quickly",
-    "imgPath": "../../../public/Projects/ProjectImages/readmegen.png",
+    "imgPath": "./Projects/ProjectImages/readmegen.png",
     "stack": "NodeJS, JavaScript, writeFileSync",
     "github": "https://github.com/JBassard97/Professional_README_Generator"
   },
   {
     "title": "jbassard97nodecolors",
     "desc": "An npm module to easily colorize terminal output",
-    "imgPath": "../../../public/Projects/ProjectImages/nodecolors.png",
+    "imgPath": "./Projects/ProjectImages/nodecolors.png",
     "stack": "JavaScript, NPM",
     "github": "https://github.com/JBassard97/nodeColors",
     "liveLink": "https://www.npmjs.com/package/jbassard97nodecolors"
@@ -40,7 +40,7 @@
   {
     "title": "Just Another Text Editor",
     "desc": "A Progressive Web App to dependably write code snippets",
-    "imgPath": "../../../public/Projects/ProjectImages/JATE.png",
+    "imgPath": "./Projects/ProjectImages/JATE.png",
     "stack": "WebPack, Service-Workers, Manifest.js, Bootstrap",
     "github": "https://github.com/JBassard97/Browser-Text-Editor",
     "liveLink": "https://just-another-text-editor-tq3x.onrender.com/"
@@ -48,14 +48,14 @@
   {
     "title": "SVG Logo Maker",
     "desc": "Create business logos on the fly",
-    "imgPath": "../../../public/Projects/ProjectImages/svgmaker.png",
+    "imgPath": "./Projects/ProjectImages/svgmaker.png",
     "stack": "NodeJS, Jest, Inquirer, OOP",
     "github": "https://github.com/JBassard97/SVG_Logo_Maker"
   },
   {
     "title": "Workday Scheduler",
     "desc": "Plan your 9 to 5 by the hour",
-    "imgPath": "../../../public/Projects/ProjectImages/workday.png",
+    "imgPath": "./Projects/ProjectImages/workday.png",
     "stack": "JQuery, Day.js, Google Fonts",
     "github": "https://github.com/JBassard97/Work_Day_Scheduler",
     "liveLink": "https://jbassard97.github.io/Work_Day_Scheduler/"
@@ -63,7 +63,7 @@
   {
     "title": "5 Day Weather",
     "desc": "Know the forecast for today and the next 5 days",
-    "imgPath": "../../../public/Projects/ProjectImages/weather.png",
+    "imgPath": "./Projects/ProjectImages/weather.png",
     "stack": "JQuery, Third Party APIs (OpenWeather & GeoJS), Bootstrap",
     "github": "https://github.com/JBassard97/5_Day_Weather",
     "liveLink": "https://jbassard97.github.io/5_Day_Weather/"
@@ -71,7 +71,7 @@
   {
     "title": "Note Taker",
     "desc": "Quickly jot notes down in a convenient web app",
-    "imgPath": "../../../public/Projects/ProjectImages/notetaker.png",
+    "imgPath": "./Projects/ProjectImages/notetaker.png",
     "stack": "Express, JavaScript, Bootstrap",
     "github": "https://github.com/JBassard97/Note_Taker",
     "liveLink": "https://note-taker-gynb.onrender.com/"
@@ -79,21 +79,21 @@
   {
     "title": "Employee Tracker",
     "desc": "A Content Management System for everyone on payroll",
-    "imgPath": "../../../public/Projects/ProjectImages/employee.png",
+    "imgPath": "./Projects/ProjectImages/employee.png",
     "stack": "MySQL, SQL, NodeJS, Inquirer",
     "github": "https://github.com/JBassard97/Employee_Tracker"
   },
   {
     "title": "E_Commerce API",
     "desc": "An API serving every HTTP request for your digital storefront",
-    "imgPath": "../../../public/Projects/ProjectImages/ecom.png",
+    "imgPath": "./Projects/ProjectImages/ecom.png",
     "stack": "Express, SQL, MySQL, Insomnia",
     "github": "https://github.com/JBassard97/E_Commerce_API"
   },
   {
     "title": "JavaScript Code Quiz",
     "desc": "5 question timed test on JavaScript's basics with a highscore page",
-    "imgPath": "../../../public/Projects/ProjectImages/quiz.png",
+    "imgPath": "./Projects/ProjectImages/quiz.png",
     "stack": "HTML, CSS, JavaScript",
     "github": "https://github.com/JBassard97/Code_Quiz",
     "liveLink": "https://jbassard97.github.io/Code_Quiz/"
@@ -101,7 +101,7 @@
   {
     "title": "ButtonSynth",
     "desc": "A fun pocket instrument to jam out anywhere",
-    "imgPath": "../../../public/Projects/ProjectImages/synth.png",
+    "imgPath": "./Projects/ProjectImages/synth.png",
     "stack": "Web Audio API, HTML, CSS, JavaScript",
     "github": "https://github.com/JBassard97/ButtonSynth",
     "liveLink": "https://jbassard97.github.io/ButtonSynth/"
@@ -109,7 +109,7 @@
   {
     "title": "Brew-Finder",
     "desc": "Find bars near you or in the town over",
-    "imgPath": "../../../public/Projects/ProjectImages/brew-finder-application.jpg",
+    "imgPath": "./Projects/ProjectImages/brew-finder-application.jpg",
     "stack": "Third Party APIs (OpenBrewery & GeoJS), HTML, CSS, JavaScript",
     "github": "https://github.com/JBassard97/Brew-Finder",
     "liveLink": "https://ant-m84.github.io/Brew-Finder/"
