@@ -1,5 +1,13 @@
 [
   {
+    "title": "PollR",
+    "desc": "Create polls to ask to vote to answer real questions",
+    "imgPath": "./Projects/ProjectImages/PollR_Screenshot.png",
+    "stack": "MERN Stack (MongoDB, Express, React, Node.js)",
+    "github": "https://github.com/JBassard97/PollR",
+    "liveLink": "https://pollr.onrender.com/"
+  },
+  {
     "title": "Code-Corner",
     "desc": "Full Stack blog for budding devs",
     "imgPath": "./Projects/ProjectImages/codeCorner.png",
