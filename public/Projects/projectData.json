@@ -8,6 +8,14 @@
     "liveLink": "https://pollr.onrender.com/"
   },
   {
+    "title": "DokèPex",
+    "desc": "1 to 1 representation of a device from a beloved franchise",
+    "imgPath": "./Projects/ProjectImages/dokepex.png",
+    "stack": "Vue, PokèAPI, Netlify",
+    "github": "https://github.com/JBassard97/DokePex",
+    "liveLink": "https://dokepex.netlify.app/open"
+  },
+  {
     "title": "Code-Corner",
     "desc": "Full Stack blog for budding devs",
     "imgPath": "./Projects/ProjectImages/codeCorner.png",
